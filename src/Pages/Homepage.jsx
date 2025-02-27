@@ -12,7 +12,7 @@ const Homepage = () => {
         style={{ backgroundImage: `url(${sec1img})` }}
         className="Homepage"
       >
-        <Navbar />
+        
         <div className="homediv1">
           <button>Book A Car</button>
         </div>

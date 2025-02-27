@@ -9,6 +9,7 @@ import Contactus from "./Pages/Contactus";
 function App() {
   return (
     <div>
+      <Navbar/>
       <div className="container">
         <Routes>
           <Route path="/" element={<Homepage />} />
