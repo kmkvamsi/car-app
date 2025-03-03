@@ -16,8 +16,13 @@ const PaymentForm = () => {
       return;
     }
     setError("");
-    console.log("Payment successful with", { cardName, cardNumber, expiryDate, cvv, amount });
-    // Handle payment processing here
+    console.log("Payment successful with", {
+      cardName,
+      cardNumber,
+      expiryDate,
+      cvv,
+      amount,
+    });
   };
 
   return (
@@ -75,7 +80,9 @@ const PaymentForm = () => {
           />
         </div>
         {error && <p className="error-message">{error}</p>}
-        <button type="submit" className="payment-button">Make Payment</button>
+        <button type="submit" className="payment-button">
+          Make Payment
+        </button>
       </form>
     </div>
   );
