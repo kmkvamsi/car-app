@@ -33,6 +33,11 @@ const Navbar = () => {
               Login
             </li>
           </NavLink>
+          <NavLink to="/register">
+            <li style={{ backgroundColor: " #043812", color: "white" }}>
+              Register
+            </li>
+          </NavLink>
         </ul>
       </div>
     </div>
