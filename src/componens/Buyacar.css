@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.head {
+  color: rgb(39, 39, 39);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid rgba(143, 143, 143, 0.712);
+}
+.div1 {
+  width: 1330px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.div1 a {
+  color: rgb(132, 132, 132);
+  text-decoration: dashed;
+  padding-left: 4rem;
+}
+
+.div1 h3 {
+  color: rgb(207, 207, 207);
+}
+
+.div1 span {
+  font-size: 2rem;
+  color: rgb(187, 54, 5);
+}
+
+.buyacarmaindiv {
+  width: 20rem;
+  height: 15rem;
+  border: 10px solid black;
+  margin-bottom: 2rem;
+  text-align: center;
+  display: block;
+  justify-content: center;
+}
+
+.carscard {
+  padding-top: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.457);
+  background-color: rgba(168, 168, 168, 0.192);
+  width: 25rem;
+  box-shadow: 0 0 30px 0 grey;
+  height: auto;
+  text-align: center;
+  border-radius: 13px;
+}
+
+.carscard:hover {
+  width: 30rem;
+  transition: 0.6s;
+}
+.one1 {
+  background-color: rgb(0, 0, 0);
+  font-size: 12px;
+  border: 1px solid gray;
+  color: rgb(255, 255, 255);
+
+  padding: 1.5px 11px;
+  border-radius: 13px;
+}
+
+.two2 {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.three3 img {
+  width: 80%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 grey;
+}
+.three3 img:hover {
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 10%;
+  box-shadow: 0 0 10px 0 grey;
+}
+
+.four4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.four {
+  padding: 1rem;
+  border: none;
+  box-shadow: 0 0 10px 0 grey;
+  background-color: black;
+  color: white;
+  border-radius: 49%;
+  margin: 7px 0;
+  font-weight: 900;
+  font-size: 1.9rem;
+}
+
+.four:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(61, 61, 61);
+  padding: 1.1rem;
+  border: 1px solid black;
+  transition: 0.6s ease-in-out;
+}
+
+.five {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+}
+
+.six {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 1.5rem;
+  padding: 0.3rem 0.3rem;
+  margin-bottom: 0.7rem;
+}
+
+.six1 {
+  font-size: 2rem;
+}
+.six2 button {
+  padding: 10px 14px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  color: white;
+}
+
+.six2 button:hover {
+  padding: 10px 14px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  border: 1px solid grey;
+  text-transform: uppercase;
+  color: rgb(45, 45, 45);
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 0 5px 0 grey;
+  background-color: white;
+}
+
+.carrow {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0.3rem;
+}
+
+.form input {
+  width: 22rem;
+  height: 2rem;
+  margin: 0.8rem 0;
+  padding-left: 1rem;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 0 7px 0 grey;
+}
+
+#message {
+  height: 5rem;
+}
+.contactusmaindiv {
+  text-align: center;
+  padding: 2rem 3.5rem;
+  border-radius: 13px;
+  box-shadow: 0 0 30px 0 grey;
+  background-color: white;
+}
+
+.contactusmaindiv button {
+  padding: 0.8rem 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 7px;
+  color: white;
+  background-color: rgb(38, 38, 38);
+  border: none;
+  box-shadow: 0 0 10px 0 grey;
+}
+
+.contactusmaindiv:hover {
+  padding: 4rem;
+
+  transition: 0.9s ease-in-out;
+}
+
+.contactusmaindiv button:hover {
+  background-color: white;
+  color: black;
+  padding: 1rem 1.7rem;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  color: rgb(38, 38, 38);
+  border: 0.2px solid grey;
+  font-weight: 800;
+}
+.contactusmaindiv h1 {
+  padding-bottom: 1rem;
+  color: rgb(69, 69, 69);
+}
+
+.container {
+  width: 100%;
+  background-color: rgba(203, 203, 203, 0.27);
+}
+
+#selectopt {
+  text-align: center;
+  margin-top: 1rem;
+  color: grey;
+  font-size: 0.8rem;
+  font-weight: 900;
+}

@@ -5,10 +5,10 @@ const Navbar = () => {
     <div>
       <div className="navbar">
         <ul>
-          <NavLink style={{ color: "black" }} to="/">
+          <NavLink style={{ color: "white" }} to="/">
             <li>
               {" "}
-              <b> CR</b>
+              <b> Premium CR</b>
             </li>
           </NavLink>
           <NavLink to="/">

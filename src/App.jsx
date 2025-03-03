@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from "./componens/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
-import Buyacar from "./Pages/Buyacar";
+import Buyacar from "./componens/Buyacar";
 import Aboutus from "./Pages/Aboutus";
 import Contactus from "./Pages/Contactus";
 
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className="container">
         <Routes>
           <Route path="/" element={<Homepage />} />
