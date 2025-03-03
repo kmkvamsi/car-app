@@ -28,11 +28,11 @@ const Navbar = () => {
               Contact
             </li>
           </NavLink>
-          {/* <NavLink to="/login">
+          <NavLink to="/login">
             <li style={{ backgroundColor: " #043812", color: "white" }}>
               Login
             </li>
-          </NavLink> */}
+          </NavLink>
         </ul>
       </div>
     </div>
