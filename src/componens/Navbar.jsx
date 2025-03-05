@@ -5,10 +5,10 @@ const Navbar = () => {
     <div>
       <div className="navbar">
         <ul>
-          <NavLink style={{ color: "black" }} to="/">
+          <NavLink style={{ color: "white" }} to="/">
             <li>
               {" "}
-              <b> CR</b>
+              <b> Premium CR</b>
             </li>
           </NavLink>
           <NavLink to="/">
@@ -26,6 +26,16 @@ const Navbar = () => {
           <NavLink to="/contactus">
             <li style={{ backgroundColor: " #043812", color: "white" }}>
               Contact
+            </li>
+          </NavLink>
+          <NavLink to="/login">
+            <li style={{ backgroundColor: " #043812", color: "white" }}>
+              Login
+            </li>
+          </NavLink>
+          <NavLink to="/register">
+            <li style={{ backgroundColor: " #043812", color: "white" }}>
+              Register
             </li>
           </NavLink>
         </ul>
