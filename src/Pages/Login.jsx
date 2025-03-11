@@ -1,5 +1,6 @@
 import React from "react";
 import "../componens/Buyacar.css";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -24,6 +25,11 @@ const Login = () => {
           />
           <br />
           <br />
+          {/* Register Label with Link */}
+          <p id="register-label" style={{display: 'flex', justifyContent: 'flex-end'}}>
+            <Link style={{color: 'green'}} to="/register">Register</Link>
+          </p>
+          
           <button style={{width: '100%', height: '3rem', textAlign: 'center'}} >Submit</button>
         </form>
       </div>
